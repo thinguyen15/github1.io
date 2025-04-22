@@ -1,0 +1,391 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+footer {
+    color: #484848;
+    font-weight:lighter;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+header {padding: 20px;}
+
+
+main {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.7;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    color:#484848;
+    text-align:start;
+    
+}
+
+main p {
+    margin-bottom: 20px;
+
+}
+main ul {
+    list-style-position: inside;
+    text-align: left;
+    width:fit-content;
+    margin: auto;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+h1 {
+    color:#7c7c7c;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 0px;
+    flex-grow: 1;
+    font-weight: 200;
+  }
+
+
+h2 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color:#b6b5b5;
+    font-weight: 60;
+    text-align: left;
+    padding: 0px;
+    margin: 0;
+    padding-left: 0px;
+    margin-left: 20px;
+    
+ }
+
+ h5 {
+    font-size: 20px;
+    color:#484848;             
+    margin: 60px auto 20px auto;
+    margin-top: 40px;
+}
+
+
+body.home h1 {
+    color:#b6b5b5;
+}
+body.home {
+    background-color:#d8d8d8;
+    background-image:url(autot/hondaaccord3.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home nav a { 
+    color: #d8d8d8;
+
+}
+
+body.contact p {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    color:#484848;
+}
+
+
+
+body.contact h3 {
+    font-size: 30px;
+    color: #7c7c7c;
+    margin:auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.imgcontainer {
+    display: flex;
+  align-items: center; /* keskittää pystysuunnassa */
+  gap: 20px; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.autokuvacontact{
+    width: fit-content;
+    max-width:300px;
+    height: auto;
+    margin: auto;
+}
+
+.right-text {
+    flex: 1;
+}
+
+
+nav {
+    display: flex;
+    top: 0;
+    right: 0;
+    gap:20px;
+    text-align: center;
+    justify-content: flex-end;
+    position:absolute;
+    z-index: 5000;
+    padding-top: 10px;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+nav a {
+    color:#7c7c7c;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color:#b6b5b5;
+    padding: 10px;
+
+}
+  
+
+  .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 20px; 
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
+
+
+.autokuva3,.autokuva4,.autokuva5, .autokuva6, .autokuva7, .autokuva8, .autokuva9, .autokuva10, .autokuva11, .autokuva12, .autokuva13, .autokuva14, .autokuva15, .autokuva16, .autokuva17, .autokuva19, .autokuva20, .autokuva21, .autokuva22, .autokuva23, .autokuva24, .autokuva25, .autokuva26, .autokuva27, .autokuva28 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    float: left; 
+    padding: 0px;
+}
+
+
+.carpicture1, .carpicture2, .carpicture3, .carpicture4, .carpicture5 {
+    display: block;
+    width: 400px;
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.menu-btn {
+    display: none;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    color:#484848;
+    padding: 10px 14px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  /* Piilotettu mobiilivalikko */
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    background-color:#f2f2f2;
+    border: 1px solid transparent;
+    padding: 20px 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 999;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .mobile-menu a {
+    text-decoration: none;
+    color:#7c7c7c;
+    font-weight: normal;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .desktopnav a {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        max-width:90%;
+        height:auto;
+        margin-bottom: 0px;
+    }
+
+    .autokuvacontact {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    body.home h1, body.home h2 {
+        color:#484848; 
+    }
+
+    body.home nav a {
+        color:#7c7c7c;
+
+    }
+
+
+    nav ul li a {font-size: 1rem;}
+
+    h1, h2, h3 {font-size: 20px;}
+    
+    
+    .menu-btn {
+        display: block;
+    }
+
+
+    .desktopnav {
+        display: none;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        width:100%;
+        
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    body { 
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 1200px;
+        margin: auto;
+    }
+    .container {
+        flex-direction: row;  /* Kuvia asetetaan vierekkäin */
+        justify-content: space-between;  /* Kuvia ei ole pakko järjestää pystysuoraan */
+        gap: 20px; /* Lisää tilaa kuvien väliin */
+    }
+
+    body.home {
+        background-image: url(autot/hondaaccord3.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .autokuva3,
+    .autokuva4,
+    .autokuva5,
+    .autokuva6,
+    .autokuva7,
+    .autokuva8,
+    .autokuva9, 
+    .autokuva10,
+    .autokuva11,
+    .autokuva12,
+    .autokuva13,
+    .autokuva14,
+    .autokuva15,
+    .autokuva16,
+    .autokuva17,
+    .autokuva18,
+    .autokuva19
+    .autokuva20,
+    .autokuva21,
+    .autokuva22,
+    .autokuva23 {
+        width: 30%;  /* Kuville jää enemmän tilaa */
+        height: auto;  /* Korkeus säilyttää kuvasuhteen */
+        margin-bottom: 30px;
+    }
+
+    nav {
+        gap: 10%;
+    }
+
+    nav ul li a {
+        font-size: 15px;  /* Pidetään suurempi fonttikoko tietokoneilla */
+    }
+
+   
+}

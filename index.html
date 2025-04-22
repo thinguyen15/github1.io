@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thi">
+    <title>Nippon Motors - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="autot/ratti.png" type="image/png">
+</head>
+<body class="home">
+    <h1>Nippon Motors</h1>
+    <h2>portfolio</h2>
+    <header>
+
+ <button class="menu-btn" onclick="toggleMenu()">☰</button>
+<nav class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+            <nav class="desktopnav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+    </header>
+        
+    <script>
+        function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    }
+  }
+    </script>
+
+
+</body>
+</html>
