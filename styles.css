@@ -197,6 +197,7 @@ body.contact h3 {
     height:auto;
     display: block; 
     padding: 0px;
+    float: left;
 }
 
 .photo1 {
