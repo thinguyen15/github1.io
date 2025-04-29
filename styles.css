@@ -191,13 +191,13 @@ body.contact h3 {
     flex-wrap:wrap;
 }
 
-.autokuva3,.autokuva4,.autokuva5, .autokuva6, .autokuva7, .autokuva8, .autokuva9, .autokuva10, .autokuva11, .autokuva12, .autokuva13, .autokuva14, .autokuva15, .autokuva16, .autokuva17, .autokuva19, .autokuva20, .autokuva21, .autokuva22,.autokuva24, .autokuva25, .autokuva26, .autokuva27, .autokuva28 {
-    width: 40%;
+.autokuva {
+    width: 100%;
     max-width: 300px;
     height:auto;
-    display: block; 
-    padding: 0px;
-    float: left;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .photo1 {
@@ -367,27 +367,7 @@ body.contact h3 {
         background-repeat: no-repeat;
     }
 
-    .autokuva3,
-    .autokuva4,
-    .autokuva5,
-    .autokuva6,
-    .autokuva7,
-    .autokuva8,
-    .autokuva9, 
-    .autokuva10,
-    .autokuva11,
-    .autokuva12,
-    .autokuva13,
-    .autokuva14,
-    .autokuva15,
-    .autokuva16,
-    .autokuva17,
-    .autokuva18,
-    .autokuva19,
-    .autokuva20,
-    .autokuva21,
-    .autokuva22,
-    .autokuva23 {
+    .autokuva {
         width: 30%; 
         height: auto;  
         margin-bottom: 20px;
