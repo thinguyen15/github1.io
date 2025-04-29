@@ -188,8 +188,8 @@ body.contact h3 {
 }
 
 .autokuva3,.autokuva4,.autokuva5, .autokuva6, .autokuva7, .autokuva8, .autokuva9, .autokuva10, .autokuva11, .autokuva12, .autokuva13, .autokuva14, .autokuva15, .autokuva16, .autokuva17, .autokuva19, .autokuva20, .autokuva21, .autokuva22,.autokuva24, .autokuva25, .autokuva26, .autokuva27, .autokuva28 {
-    width: 70%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 300px;
     height:fit-content;
     display: block;
     float: left; 
