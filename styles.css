@@ -282,8 +282,8 @@ body.contact h3 {
 
 @media only screen and (max-width: 768px) {
     body {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .container, .photo1 {
@@ -295,9 +295,9 @@ body.contact h3 {
     }
 
     .container img {
-        max-width:90%;
         height:auto;
-        margin-bottom: 0px;
+        width: 300px;
+        
     }
 
     .autokuvacontact {
